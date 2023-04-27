@@ -7,4 +7,5 @@ for row in range(num):
         print("*",end=" ") if row>=col else print(" ",end=" ")    
     print()
 
-
+def add(a,b):
+    return a+b
