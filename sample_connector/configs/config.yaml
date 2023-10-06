@@ -1,0 +1,24 @@
+source:
+  title: microfocus
+  description: ''
+  base_url: http://10.10.17.243:8001
+  auth_type: AuthType.BASIC
+  auth_details: ''
+  status: NodeStatus.ACTIVE
+  connector_id: 294cd69b-17dc-4590-bd19-8d8ebc22b23d
+  id: 5c59a8fe-3f3f-4ebc-8820-0f2489ac248e
+  created_at: '2023-10-06 13:34:57.099394'
+  created_timestamp: '1696579497099.4612'
+  updated_at: None
+destination:
+  title: ibm
+  description: ''
+  base_url: http://10.10.17.243:8001
+  auth_type: AuthType.BASIC
+  auth_details: ''
+  status: NodeStatus.ACTIVE
+  connector_id: 294cd69b-17dc-4590-bd19-8d8ebc22b23d
+  id: f239ee53-18ef-4cc5-b0e6-8fd10f677a53
+  created_at: '2023-10-06 13:34:57.099394'
+  created_timestamp: '1696579497099.4612'
+  updated_at: None

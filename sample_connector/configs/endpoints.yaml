@@ -1,0 +1,26 @@
+source:
+- title: pull data
+  description: pull data from microfocus
+  uri: /data
+  method: MethodType.GET
+  is_pagination: 'True'
+  pagination_type: PaginationType.CURSOR
+  pagination: '{"next_key":"next_cursor","events_key":"test_key","sort":"asc","date_key":"updated"}'
+  node_id: 5c59a8fe-3f3f-4ebc-8820-0f2489ac248e
+  id: 9249b830-9760-4e8e-88aa-efa3c5954c9b
+  created_at: '2023-10-06 13:34:57.099394'
+  created_timestamp: '1696579497099.4612'
+  updated_at: None
+destination:
+- title: push data
+  description: push data to ibm
+  uri: /get_data
+  method: MethodType.POST
+  is_pagination: 'True'
+  pagination_type: PaginationType.CURSOR
+  pagination: '{"next_key":"next_cursor","events_key":"test_key","sort":"asc","date_key":"updated"}'
+  node_id: f239ee53-18ef-4cc5-b0e6-8fd10f677a53
+  id: ea5aa747-22c4-47f5-b37e-ed9096990e4a
+  created_at: '2023-10-06 13:34:57.099394'
+  created_timestamp: '1696579497099.4612'
+  updated_at: None
